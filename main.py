@@ -1,10 +1,11 @@
 from flask import Flask, request, render_template
 import openai
 from io import BytesIO
+import os
 
 app = Flask(__name__)
 
-token = "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"
+token = os.getenv("token")
 openai.api_key = token
 
 @app.route('/')
