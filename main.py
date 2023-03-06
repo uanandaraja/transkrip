@@ -4,7 +4,7 @@ from io import BytesIO
 
 app = Flask(__name__)
 
-token = "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"
+token = "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"
 openai.api_key = token
 
 @app.route('/')
