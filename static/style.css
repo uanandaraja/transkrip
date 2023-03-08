@@ -1,0 +1,29 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+  
+  .card-header i {
+    margin-right: 10px;
+  }
+  
+  .progress {
+    height: 20px;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  
+  .card-body textarea {
+    resize: none;
+  }
+  
+  #transcriptionTime {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+
+  body, h1, h2, h3, h4, h5, h6, p, a, button, input, select, textarea, label {
+    font-family: "DM Sans", sans-serif;
+}
